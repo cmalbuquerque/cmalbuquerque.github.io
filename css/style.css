@@ -15,7 +15,7 @@ header {
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #fff !important;
+  background-color: #ffffff !important;
   transition: background-color 200ms linear;
 }
 
@@ -62,7 +62,7 @@ a:hover {
 ----------- Sections --------------
 */
 #home {
-  background: url(../img/back_bw.jpg);
+  background: url(../img/back_bw1.jpg);
   background-size: cover;
   height: 100vh;
   background-position: center center; 
@@ -71,7 +71,7 @@ a:hover {
 #about {
   padding: 100px 0;
   background: #f3f3f3;
-  height: 100%;
+  height: 100vh;
 }
 
 
@@ -107,7 +107,7 @@ h4 {
 }
 
 p {
-  font-family: 'Montserrat';
+  font-style: 'Fira Sans Extra Condensed', sans-serif; 
   font-size: 30px;
   letter-spacing: 1px;
 }
@@ -166,8 +166,108 @@ p {
   font-style: italic;
   padding: 3%;
   font-size: 20px;
+  font-family: 'Monserrat';
 }
 
+.interests p {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+
+#about hr {
+  border-color: #3D3A4B;
+}
+
+
+#about .home_btns{
+    margin-left:-10px;
+    padding: 3%;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+#about .home_btns .btn{
+    margin-left:10px;
+}
+
+.btn{
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    font-size:15px;
+    border:1px solid;
+    padding: 1rem 4rem;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #937666;
+    border:1px solid;
+    border-color: #937666;
+
+}
+.btn-primary:hover{
+    background-color: #eee;
+    border-color: #eee;
+    font-size:15px;
+    color:#937666;
+}
+
+.btn-default{
+    color: #fff;
+    background-color: transparent;
+    border:1px solid;
+    border-color: #b6b6b6;
+}
+.btn-default:hover{
+    color: #fff;
+    background-color: #3f92d1;
+    border-color: #3f92d1;
+}
+
+.features_item .f_item_icon{
+    float: left;
+    width:15%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.features_item .f_item_icon i{
+    background-color: #3D3A4B;
+    font-size: 17px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #3D3A4B;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.features_item .f_item_text{
+    display: inline-block;
+    width:75%;
+    margin-top: 3%;
+}
+
+.features_item:hover .f_item_icon i{
+    background-color: #fff;
+    border-color:#f3f3f3;
+    color:#3D3A4B;
+}
+
+.features_item:hover .f_item_text{
+    font-weight: bold;
+}
+
+.features_item {
+  margin-top: 4%;
+}
 
 /* ------------- Animação -------------------- */
 
