@@ -62,7 +62,7 @@ a:hover {
 ----------- Sections --------------
 */
 #home {
-  background: url(../img/back_bw1.jpg);
+  background: url("../img/back_bw.JPG");
   background-size: cover;
   height: 100vh;
   background-position: center center; 
