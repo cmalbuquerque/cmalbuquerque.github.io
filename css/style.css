@@ -74,16 +74,6 @@ a:hover {
   height: 100vh;
 }
 
-#education {
-  padding: 100px 0;
-  background: #fff;
-  height: 100%;
-}
-
-#formation {
-  background: #fff;
-  height: 100%;
-}
 
 #experience {
   padding: 100px 0;
@@ -293,70 +283,134 @@ p {
 }
 
 
-/* ------------- Education -------------------- */
 
-.box{
-  display:table;
-  position:relative;
-  background:#f3f3f3;
-  width: 100%;
-  border:1px solid #f3f3f3;
-  margin:40px auto 100px 0;
-
+/*---------------------------------------
+    Experience section              
+-----------------------------------------*/
+#education {
+  background: #fff;
 }
 
-.box img{
-  width: 60px;
-  height: 60px;
-  position:absolute;
-  margin:0 0 0 0;
-  z-index:5;
-  left:-20px;
-  top:-15px;
+#education .experience-img {
+  background: url('../img/stuff.jpg') no-repeat;
 }
 
-.box p{
-  float:left;
-  text-align:left;
+
+#education .media-heading {
+  margin-bottom: 0px;
+}
+
+#education .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#education .media-body .fa {
+  font-size: 17px;
+  margin-right: 14px;
+}
+
+#education small {
+  color: #888888;
+  font-size: 17px;
+}
+
+
+
+/*---------------------------------------
+    Education section              
+-----------------------------------------*/
+
+#formation {
+  background: #f3f3f3;
+}
+
+#formation .education-img {
+  background: url('../img/keyboard.jpg') no-repeat;
+}
+
+#formation .media-heading {
+  margin-bottom: 0px;
+}
+
+#formation .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#formation small {
+  color: #888888;
+  font-size: 17px;
+}
+
+#formation .media-body .fa {
+  font-size: 17px;
+  margin-right: 14px;
+}
+
+
+#education p,
+#formation p{
   font-size:15px;
-  color:#5f5f5f;
-  margin: 0 0 40px 40px;
-}
-
-.box h2{
-  font-size: 30px;
-  margin-top: 2%;
-  margin-left: 40px;
-  margin-right:40px;
-}
-
-.box h4{
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 15px;
-  margin-left: 40px;
-  color: #937666;
-}
-
-.box:hover h2{
-    color:#937666;
-    font-size: 31px;
-}
-
-.box:hover h4{
-    color:#333;
-    font-weight: bold;
-}
-
-.box:hover p{
-    font-weight: bold;
+  margin-top: 3%;
 }
 
 
-.box:hover{
-  background-color: #fff;
-  border-color: #fff;
+#education,
+#formation{
+  position: relative;
+}
+
+#education .media,
+#formation .media {
+  padding: 3%;
+}
+
+#education .container,
+#formation .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#education .experience-thumb, 
+#formation .education-thumb{
+  padding: 10%;
+}
+
+
+.background-image {
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 100%;
+    min-height: 78vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  #education .container,
+  #formation .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+
+  #education .col-md-6,
+  #formation .col-md-6{
+    padding: 0;
+    margin: 0;
+  }
+
+  .background-image {
+    position: relative;
+    min-height: 65vh;
+  }
 }
 
 
