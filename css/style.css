@@ -464,7 +464,6 @@ p {
   .feature_item h4 {
     color: #222222;
     font-size: 21px;
-    font-family: "Heebo", sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase; }
@@ -489,9 +488,13 @@ p {
   color: #888888;
 }
 
+#skills .soft{
+  margin-bottom: 10%;
+}
+
 .skill-bars {
   list-style: none;
-  margin: 6rem 0 3rem;
+  margin-left: -3%;
 }
 .skill-bars li {
   height: .6rem;
