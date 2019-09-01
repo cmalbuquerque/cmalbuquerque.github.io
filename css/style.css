@@ -80,6 +80,11 @@ a:hover {
   height: 100%;
 }
 
+#formation {
+  background: #fff;
+  height: 100%;
+}
+
 
 /*
 ----------- Fonts --------------
@@ -168,10 +173,10 @@ p {
 */
 
 .bio{
-  font-style: italic;
+  
   padding: 3%;
   font-size: 20px;
-  font-family: 'Monserrat';
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 .interests p {
