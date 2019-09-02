@@ -8,6 +8,7 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="flaticon/flaticon.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
 
 	<script src="/js/jquery.easing.1.3.js"></script>
 	<script src="js/script.js"></script>
-
+	<script src="js/aos.js"></script>
 </head>
 <body> 
 	<header class="navbar-fixed-top fade-in" id="nav">
@@ -37,7 +38,7 @@
 	<div class="section" id="home">
 		<div class="container">
 			<div class="disply-table">
-				<div class="table-cell fade-in">
+				<div class="table-cell" data-aos="fade-down" data-aos-delay="0">
 					<h1>I'm Carolina<br/>Albuquerque</h1>
 					<hr />
 					<ul class="social">
@@ -61,11 +62,11 @@
 
 		<div class="container fade-in">
 
-			<h2 class="">About me</h2>
+			<h2 data-aos="fade-down">About me</h2>
 			<hr/>
 			
-			<div class="col-xs-5 col-sm-4 col-md-3 interests" data-aos="fade-up" id="interests">
-				<div class="row features_item">
+			<div class="col-xs-5 col-sm-4 col-md-3 interests" id="interests">
+				<div class="row features_item" data-aos="fade-right" data-aos-delay="500">
 					<div class="f_item_icon">
 						<i class="fa fa-camera"></i>
 					</div>
@@ -74,7 +75,7 @@
 					</div>
 				</div>
 
-				<div class="row features_item">
+				<div class="row features_item" data-aos="fade-right" data-aos-delay="600">
 					<div class="f_item_icon">
 						<i class="fa fa-laptop"></i>
 					</div>
@@ -82,7 +83,7 @@
 						<p>Tecnology</p>
 					</div>
 				</div>
-				<div class="row features_item">
+				<div class="row features_item" data-aos="fade-right" data-aos-delay="700">
 					<div class="f_item_icon">
 						<i class="fa fa-cutlery"></i>
 					</div>
@@ -90,7 +91,7 @@
 						<p>Cooking</p>
 					</div>
 				</div>
-				<div class="row features_item">
+				<div class="row features_item" data-aos="fade-right" data-aos-delay="800">
 					<div class="f_item_icon">
 						<i class="fa fa-plane"></i>
 					</div>
@@ -98,14 +99,14 @@
 						<p>Travel</p>
 					</div>
 				</div>
-				<div class="row features_item">
+				<div class="row features_item" data-aos="fade-right" data-aos-delay="900">
 					<div class="f_item_icon"><i class="fa fa-music"></i>
 					</div>
 					<div class="f_item_text"> 
 						<p>Music</p>
 					</div>
 				</div>
-				<div class="row features_item">
+				<div class="row features_item" data-aos="fade-right" data-aos-delay="1000">
 					<div class="f_item_icon"><i class="fa fa-ticket"></i>
 					</div>
 					<div class="f_item_text"> 
@@ -114,7 +115,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-9 col-sm-8 col-xs-7" style="float: right" data-aos="fade-up">
+			<div class="col-md-9 col-sm-8 col-xs-7" style="float: right" data-aos="fade-up" data-aos-delay="300">
 
 				<p id="welcome" class="bio">Hello, <br>I'm Carolina Albuquerque, an Informatic Engineer from Viseu, Portugal. I completed the first cycle of informatics engineering at Universidade de Aveiro in june of 2019.<br>
 					I have a speciall care for photography, having been recognized several times by portuguese photography blogs. Also, I see travels as a source of learning that make us free our minds and get us out of our comfort zone.<br>
@@ -145,13 +146,13 @@
                </div>
 
                <div class="col-md-6 col-sm-6">
-                    <div class="experience-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                    <div class="experience-thumb" >
+                         <div class="section-title" data-aos="fade-right">
                               <h2>Education</h2>
                               <hr/>
                          </div>
 
-                         <!--<div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                         <!--<div class="color-white media" data-wow-delay="1.2s">
                               <div class="media-object media-left">
                                    <i class="fa fa-graduation-cap"></i>
                               </div>
@@ -165,15 +166,15 @@
                               </div>
                          </div>-->
 
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                              <div class="media-object media-left">
+                         <div class=" color-white media">
+                              <div class="media-object media-left" data-aos="fade-down" data-aos-delay="300">
                                    <i class="fa fa-graduation-cap"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading">1st Cycle Degree Informatics Engineering<br>
+                                   <h3 class="media-heading" data-aos="fade-down" data-aos-delay="300">1st Cycle Degree Informatics Engineering<br>
                                    <small><i class="fa fa-university"></i> Universidade de Aveiro<br><i class="fa fa-calendar"></i> 2015 September - 2019 June</small>
                                </h3>
-                                   <p>In 2015 I started 1st cycle degree in Informatics Engineering at Universidade de Aveiro. At start, it was a difficult experience because of the need to move to a different city. However, after this years, I'm proud of my academic carrer and the person I became.</p>
+                                   <p data-aos="fade-down" data-aos-delay="400">In 2015 I started 1st cycle degree in Informatics Engineering at Universidade de Aveiro. At start, it was a difficult experience because of the need to move to a different city. However, after this years, I'm proud of my academic carrer and the person I became.</p>
                               </div>
                          </div>
 
@@ -193,28 +194,28 @@
 
                <div class="col-md-6 col-sm-12">
                     <div class="color-white education-thumb">
-                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                         <div class="section-title" data-aos="fade-right">
                               <h2>Formation</h2>
                               <hr/>
                          </div>
 
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
-                              <div class="media-object media-left">
+                         <div class="color-white media">
+                              <div class="media-object media-left" data-aos="fade-down" data-aos-delay="300">
                                    <i class="fa fa-laptop"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading">Marketing Digital Course<br><small><i class="fa fa-pencil-square-o"></i> Atelier Digital by Google<br><i class="fa fa-calendar"></i> 2019 January - Present</small></h3>
-                                   	<p>The fundamentals of digital marketing and open up new career opportunities.</p>
+                                   <h3 class="media-heading" data-aos="fade-down" data-aos-delay="300">Marketing Digital Course<br><small><i class="fa fa-pencil-square-o"></i> Atelier Digital by Google<br><i class="fa fa-calendar"></i> 2019 January - Present</small></h3>
+                                   	<p data-aos="fade-down" data-aos-delay="400">The fundamentals of digital marketing and open up new career opportunities.</p>
                               </div>
                          </div>
 
-                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
-                              <div class="media-object media-left">
+                         <div class="color-white media">
+                              <div class="media-object media-left" data-aos="fade-down" data-aos-delay="600">
                                    <i class="fa fa-laptop"></i>
                               </div>
                               <div class="media-body">
-                                   <h3 class="media-heading">Mass Training of Life Support and DAE<br><small><i class="fa fa-pencil-square-o"></i> Associação Formar para Salvar<br><i class="fa fa-calendar"></i> 2018 December</small></h3>
-                                   	<p>Course that teaches how to act in situations of cardio respiratory arrest, respecting safety standards. Learning to perform chest compressions and effective ventilations, and placing an unconscious, breathing victim in Safety Side Position (PLS);</p>
+                                   <h3 class="media-heading" data-aos="fade-down" data-aos-delay="600">Mass Training of Life Support and DAE<br><small><i class="fa fa-pencil-square-o"></i> Associação Formar para Salvar<br><i class="fa fa-calendar"></i> 2018 December</small></h3>
+                                   	<p data-aos="fade-down" data-aos-delay="700">Course that teaches how to act in situations of cardio respiratory arrest, respecting safety standards. Learning to perform chest compressions and effective ventilations, and placing an unconscious, breathing victim in Safety Side Position (PLS);</p>
                               </div>
                          </div>
 
@@ -238,12 +239,12 @@
 
 		<div class="container fade-in">
 
-			<h2 class="">Experience</h2>
-			<hr/>
+			<h2 data-aos="fade-down">Experience</h2>
+			<hr data-aos="fade-down"/>
 
 			<!--- TIMELINE --->
 			<div class="container">
-				<div class="timeline-wrap">
+				<div class="timeline-wrap" data-aos="fade-right">
 
 					<div class="timeline-block">
 
@@ -251,12 +252,12 @@
 							<i class="fa fa-briefcase"></i>
 						</div>
 
-						<div class="timeline-header">
+						<div class="timeline-header" data-aos="fade-right" data-aos-delay="400">
 							<h3>IEEE Student Branch Universidade de Aveiro</h3>
 							<p>2018 November - Present</p>
 						</div>
 
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-down" data-aos-delay="400">
 							<h4>Public Relations Department</h4>
 							<p>Video and image coverage of events organized and co-organized by student branch<br>
 							Poster image creation and editing for events</p>
@@ -270,12 +271,12 @@
 							<i class="fa fa-briefcase"></i>
 						</div>
 
-						<div class="timeline-header">
+						<div class="timeline-header" data-aos="fade-right" data-aos-delay="550">
 							<h3>Núcleo Estudantes de Informática AAUAv</h3>
 							<p>2017 January - 2019 January</p>
 						</div>
 
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-down" data-aos-delay="550">
 							<h4>Pedagogic and Social Section</h4>
 							<p>Organization of workshops and educational sessions for students<br>
 								Welcoming new university students<br>
@@ -296,12 +297,12 @@
 							<i class="fa fa-briefcase"></i>
 						</div>
 
-						<div class="timeline-header">
+						<div class="timeline-header" data-aos="fade-right" data-aos-delay="600">
 							<h3>Students Association</h3>
 							<p>2014 October - 2015 October</p>
 						</div>
 
-						<div class="timeline-content">
+						<div class="timeline-content" data-aos="fade-down" data-aos-delay="600">
 							<h4>Vice President</h4>
 							<p>Implementation of educational projects<br>
 								Events organization<br>
@@ -324,51 +325,51 @@
 
 			<div class="container fade-in">
 
-				<h2 class="">Skills</h2>
-				<hr/>
+				<h2 data-aos="fade-down">Skills</h2>
+				<br><br>
 
 
 				<div class="feature_inner row">
 
 					<div class="soft col-lg-8 col-md-7">
 
-						<div class="col-lg-6 col-md-6">
-							<div class="feature_item">
+						<div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-delay="300">
+							<div class="feature_item" >
 								<i class="flaticon-idea-1"></i>
 								<h3>Creativity</h3>
 								<p>I consider myself a very creative person with some out of the box ideas.</p>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-delay="400">
 							<div class="feature_item">
-								<i class="flaticon-team"></i>
+								<i class="flaticon-team" ></i>
 								<h3>Team Work</h3>
 								<p>I can easily adapt to teamwork and take into consideration the opinions of my colleagues.</p>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="feature_item">
+						<div class="col-lg-6 col-md-6"data-aos="fade-right" data-aos-delay="300">
+							<div class="feature_item" >
 								<i class="flaticon-leader"></i>
 								<h3>Leadership</h3>
 								<p>I can easily distribute and delegate tasks to my colleagues.</p>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="feature_item">
+						<div class="col-lg-6 col-md-6"data-aos="fade-right" data-aos-delay="400">
+							<div class="feature_item" >
 								<i class="flaticon-archive"></i>
 								<h3>Organization</h3>
 								<p>I consider myself an organized person both at work and at home.</p>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6"  data-aos="fade-right" data-aos-delay="300">
 							<div class="feature_item">
 								<i class="flaticon-employee"></i>
 								<h3>Public Speaking</h3>
 								<p>I can speak with a good cohesion and clarity catching easly the attention of my audience.</p>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="feature_item">
+						<div class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-delay="400">
+							<div class="feature_item" >
 								<i class="flaticon-entrepreneur"></i>
 								<h3>Entrepreneurship</h3>
 								<p>I can look ahead and take advantage of every opportunity that comes up.</p>
@@ -379,46 +380,46 @@
 
 					<div class="col-lg-4 col-md-5">
 						<ul class="skill-bars">
-							<li>
+							<li data-aos="fade-left" data-aos-delay="300">
 								<div class="progress percent80"><span>80%</span></div>
 								<strong>Java</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="400">
 								<div class="progress percent80"><span>80%</span></div>
 								<strong>Android</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="500">
 								<div class="progress percent70"><span>70%</span></div>
 								<strong>HTML 5 & CSS</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="600">
 								<div class="progress percent70"><span>70%</span></div>
 								<strong>SQL</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="700">
 
 								<div class="progress percent55"><span>55%</span></div>
 								<strong>Python</strong>
 							</li>
 							<p>&nbsp;</p>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="800">
 								<div class="progress percent60"><span>60%</span></div>
 								<strong>Photoshop</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="900">
 								<div class="progress percent40"><span>40%</span></div>
 								<strong>Excel</strong>
 							</li>
 							<p>&nbsp;</p>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="1000">
 								<div class="progress percent95"><span>95%</span></div>
 								<strong>Portuguese</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="1100">
 								<div class="progress percent60"><span>60%</span></div>
 								<strong>English</strong>
 							</li>
-							<li>
+							<li data-aos="fade-left" data-aos-delay="1200"> 
 								<div class="progress percent30"><span>30%</span></div>
 								<strong>Spanish</strong>
 							</li>
