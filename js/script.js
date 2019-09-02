@@ -13,7 +13,6 @@ $(document).scroll(function () {
 $(document).ready(function () {
     AOS.init({
         duration: 1200,
-        once: false,
-        disable: 'mobile'
+        once: false
     });
 });
