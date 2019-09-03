@@ -1,3 +1,5 @@
 # Portfolio
-A simple and an interactive view about myself 
-https://cmalbuquerque.github.io/Portfolio/
+
+This is a personal project that shows a simple and an interactive view about myself. 
+
+Available on https://cmalbuquerque.github.io/Portfolio/
