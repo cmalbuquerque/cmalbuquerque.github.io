@@ -656,6 +656,9 @@ footer .copyright li {
   padding: 0;
   line-height: 24px;
 }
+footer .copyright li a:hover{
+  font-size: 14px;
+}
 .ie footer .copyright li {
  display: inline;
 }
