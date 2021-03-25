@@ -2,33 +2,34 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>Carolina Albuquerque</title>
+    <meta charset="utf-8">
+    <title>Carolina Albuquerque</title>
 
-	<!-- Stylesheet -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-	<!-- Animations -->
-	<link href="css/animate.min.css" rel="stylesheet">
-	<link href="css/aos.css" rel="stylesheet">
+    <!-- Animations -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
 
-	<!-- Fonts -->
-	<link rel="stylesheet" href="flaticon/flaticon.css">
-	<!-- <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
-	<link href="fonts/fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="flaticon/flaticon.css">
+    <!--<link href="fonts/fontawesome-free-5.14.0-web/css/all.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<script src="/js/jquery.easing.1.3.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/aos.js"></script>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/aos.js"></script>
 </head>
 
 <body>
-	<!-- Preloader -->
+    <!-- Preloader 
 	<div class="spinner-wrapper">
 		<div class="spinner">
 			<div class="bounce1"></div>
@@ -36,497 +37,85 @@
 			<div class="bounce3"></div>
 		</div>
 	</div>
-	<!-- end of preloader -->
+	 end of preloader -->
+
+
+    <!-- Side navigation -->
+    <div class="sidenav">
+        <ul class="links">
+            <li><a href="#home"><i class="las la-home"></i>Home</a></li>
+            <li><a href="#about"><i class="las la-user"></i>About</a></li>
+            <li><a href="#"><i class="las la-graduation-cap"></i>Education</a></li>
+            <li><a href="#"><i class="las la-briefcase"></i>Experience</a></li>
+            <li><a href="#"><i class="las la-brain"></i>Skills</a></li>
+            <li><a href="#"><i class="las la-newspaper"></i>Articles</a></li>
+            <li></li>
+        </ul>
+        <ul class="social">
+            <li><a href="https://github.com/cmalbuquerque"><i class="lab la-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/carolina-albuquerque29/"><i
+							class="lab la-linkedin-in"></i></a>
+            </li>
+        </ul>
+
+
+    </div>
+
+    <!-- Home section -->
+    <div class="section" id="home">
+        <div class="container">
+            <div class="disply-table">
+                <div class="row console_container" data-aos="fade-down" data-aos-delay="0">
+                    <h1> <span id='text'></span>
+                        <div class='console-underscore' id='console'>&#95;</div>
+                    </h1>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down" address="true"></a>
+
+        </div>
+    </div>
+    <!-- end of home section -->
+
+    <!-- About section -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About</h2>
+                <!--<hr />-->
+            </div>
+            <div class="row content">
+                <div class="profile-photo col-md-5">
+                    <img class="img-fluid" src="img/about.jpg" alt="">
+                </div>
+                <div class="description col-md-7">
+                    <h3>Carolina Albuquerque</h3>
+                    <h4>Software Engineer</h4>
+                    <p>Hello, I am Carolina Albuquerque, a Software Engineer. Nowadays, I am Master's degree student in Software Engineering at University of Aveiro, where I also completed in 2019 the Bachelor's degree in same area. Web and mobile development
+                        are areas of my interest as also data management. I consider myself good for teamwork with a willingness to learn in case of lack of knowledge. I have a special interest for photography and video, having been recognized several
+                        times by portuguese photography instagram pages.</p>
+                    <button type="button" class="btn btn-light">Download CV <i class="las la-download"></i></button>
+                </div>
+
+            </div>
+            <div class="row interests">
+                <h3>Personal Interests</h3>
+                <ul class="interest">
+                    <li><i class="las la-camera"></i>Photography</li>
+                    <li><i class="las la-passport"></i>Travel</li>
+                    <li><i class="las la-mobile-alt"></i>Technology</li>
+                    <li><i class="las la-utensils"></i>Cooking</li>
+                    <li><i class="las la-cocktail"></i>Social</li>
+                    <li><i class="las la-record-vinyl"></i>Music</li>
+                    <li><i class="las la-film"></i>Cinema</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of home section -->
 
-	<!-- Navbar -->
-	<header class="navbar-fixed-top fade-in" id="nav">
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#education">Formation</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#skills">Skills</a></li>
-			</ul>
-		</nav>
-	</header>
-	<!-- end of navbar -->
-
-	<!-- Home page -->
-	<div class="section" id="home">
-		<div class="container">
-			<div class="disply-table">
-				<div class="row console_container" data-aos="fade-down" data-aos-delay="0">
-					<h1>> <span id='text'></span>
-						<div class='console-underscore' id='console'>&#95;</div>
-					</h1>
-					<!--<h1>> Hello.<br>> I am Carolina<br>Albuquerque</h1>-->
-				</div>
-				<div class="row">
-					<ul class="social">
-						<li><a href="https://github.com/cmalbuquerque"><i class="fab fa-github"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/carolina-albuquerque29/"><i
-									class="fab fa-linkedin"></i></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<a href="#about" class="scroll-down" address="true"></a>
-
-		</div>
-	</div>
-	<!-- end of home page -->
-
-	<!-- About me -->
-	<div class="section" id="about">
-
-		<div class="container fade-in">
-
-			<div class="information-about">
-				<p id="welcome" class="bio">Hello, <br>I am Carolina Albuquerque, an Informatic Engineer. 
-					Nowadays, I am Master's degree student in Informatics Engineering at University of Aveiro, where I also completed in 2019 the Bachelor's degree in same area.<br>
-					Web and mobile development are areas of my interest as also databases area. I consider myself good for teamwork with a willingness to learn in case of lack of knowledge.
-					I have a special interest for photography and video, having been recognized several times by portuguese
-					photography instagram pages.<br>
-					
-				</p>
-
-			</div>
-			<!--<div class="home_btns">
-				<a href="https://github.com/cmalbuquerque/Portfolio/blob/master/documents/CVCarolinaAlbuquerque.pdf"
-					class="btn btn-primary" download><i class="fa fa-download"></i> Download CV</a>
-			</div>-->
-
-
-		</div>
-
-	</div>
-	<!-- end of about me section -->
-
-
-	<!-- Education Section -->
-	<div class="section box" id="education">
-		<div class="container fade-in ">
-			<div class="row">
-				<div class="col-md-6 col-sm-12 university">
-					<div class="experience-thumb">
-						<div class="section-title" data-aos="fade-right">
-							<h2>Education</h2>
-							<hr />
-						</div>
-
-						<div class="color-white media" data-wow-delay="1.2s">
-							<div class="media-object media-left">
-								<i class="fa fa-graduation-cap"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Master's Degree in Informatics Engineering<br>
-									<small><i class="fa fa-university"></i> University of Aveiro<br><i
-											class="far fa-calendar-alt"></i> 2019 September - Present</small>
-
-								</h3>
-								<p></p>
-							</div>
-						</div>
-
-						<div class=" color-white media">
-							<div class="media-object media-left" data-aos="fade-down" data-aos-delay="300">
-								<i class="fa fa-graduation-cap"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading" data-aos="fade-down" data-aos-delay="300">Bachelor's in
-									Informatics Engineering<br>
-									<small><i class="fa fa-university"></i> University of Aveiro<br><i
-											class="far fa-calendar-alt"></i> 2015 September - 2019 June</small>
-								</h3>
-								<!--<p data-aos="fade-down" data-aos-delay="400">In 2015 I started 1st cycle degree in Informatics Engineering at Universidade de Aveiro. At start, it was a difficult experience because I needed to move to a different city. However, after this years, I'm proud of my academic carrer and the person I became.</p>
-									-->
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="col-md-6 col-sm-12 formation">
-					<div class="color-white education-thumb">
-						<div class="section-title" data-aos="fade-right">
-							<h2>Extra Formation</h2>
-							<hr />
-						</div>
-
-						<div class="color-white media">
-							<div class="media-object media-left" data-aos="fade-down">
-								<i class="fas fa-chalkboard-teacher"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading" data-aos="fade-down" data-aos-delay="300">The Complete Flutter
-									Bootcamp Course<br><small><i class="fa fa-certificate"></i> Udemy | Dra. Angela Yu
-										by
-										London Appbrew <br><i class="far fa-calendar-alt"></i> 2020 July - 2020
-										September</small></h3>
-								<p data-aos="fade-down" data-aos-delay="400">From beginner to Flutter Developer, this
-									course helped to completely understand fundamental Flutter concepts (e.g. Stateful
-									vs. Stateless Widgets, Widget tree, state management, animations), fundamental Dart
-									concepts, networking and data storage, authentication and software design using
-									Flutter.</p>
-							</div>
-						</div>
-
-						<div class="color-white media">
-							<div class="media-object media-left" data-aos="fade-down">
-								<i class="fas fa-chalkboard-teacher"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading" data-aos="fade-down" data-aos-delay="600">Mass Training of
-									Life Support and DAE<br><small><i class="fa fa-certificate"></i> Associação
-										Formar para Salvar<br><i class="far fa-calendar-alt"></i> 2018 December</small>
-								</h3>
-								<p data-aos="fade-down" data-aos-delay="700">Course that teaches how to act in
-									situations of cardio respiratory arrest, respecting safety standards. Learning to
-									perform chest compressions and effective ventilations, and placing an unconscious,
-									breathing victim in Safety Side Position (PLS);</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-	<!-- end of education section -->
-
-	<!-- Break 
-	<section class="section" id="break">
-
-		<div class="container fade-in">
-		</div>
-
-	</section>
-	<!-- end of break -->
-
-	<!-- Experience -->
-	<div class="section" id="experience">
-
-		<div class="container fade-in">
-
-
-			<!--- Timeline --->
-			<div class="col-lg-7 col-md-12">
-				<h2 data-aos="fade-down">Experience</h2>
-				<hr data-aos="fade-down" />
-				<div class="timeline-wrap" data-aos="fade-right">
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header" data-aos="fade-right">
-							<h3>IEEE Student Branch University of Aveiro</h3>
-							<p>2018 November - 2019 September</p>
-						</div>
-
-						<div class="timeline-content" data-aos="fade-down">
-							<h4>Public Relations Department</h4>
-							<p>Video and image coverage of events organized and co-organized by student branch<br>
-								Poster image creation and editing for events</p>
-						</div>
-
-					</div>
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header" data-aos="fade-right">
-							<h3>Núcleo Estudantes de Informática AAUAv</h3>
-							<p>2017 January - 2019 January</p>
-						</div>
-
-						<div class="timeline-content" data-aos="fade-down">
-							<h4>Pedagogic and Social Section</h4>
-							<p>Organization of workshops and educational sessions for students<br>
-								Welcoming new university students<br>
-								Student support<br>
-								Organization of solidarity actions with regional associations</p>
-							<h4>Image and Comunication Section</h4>
-							<p>Information dissemination logistics<br>
-								Social networks responsible<br>
-								Marketing<br>
-								Image creation and maintenance</p>
-						</div>
-
-					</div>
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header" data-aos="fade-down">
-							<h3>Students Association</h3>
-							<p>2014 October - 2015 October</p>
-						</div>
-
-						<div class="timeline-content" data-aos="fade-down">
-							<h4>Vice President</h4>
-							<p>Implementation of educational projects<br>
-								Events organization<br>
-								Financial responsible<br>
-								Section leadership</p>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-			<!--- end of timeline --->
-
-			<div class="col-lg-5 col-md-12 volunteer-box">
-				<div class="content-box">
-					<div class="content-text">
-				<h2 data-aos="fade-down" style="text-align: center; font-size: 40px;">Volunteer</h2>
-				<!--<hr data-aos="fade-down" />-->
-				<!--- Timeline --->
-				<div class="timeline-wrap" data-aos="fade-left">
-				
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-heart"></i>
-						</div>
-
-						<div class="timeline-content" data-aos="fade-left">
-							<h4>Web Summit</h4>
-							<p>Welcoming and registration of speakers, media and conference attendees</p>
-						</div>
-
-					</div>
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-heart"></i>
-						</div>
-
-						<div class="timeline-content" data-aos="fade-left">
-							<h4>Mentoring Program University of Aveiro</h4>
-							<p>Mentoring and integration of new university students</p>
-						</div>
-
-					</div></div>
-				</div>
-				</div>
-			<!--- end of timeline --->
-
-
-			</div>
-
-		</div>
-	</div>
-	<!-- end of experience -->
-
-	<!-- Skills -->
-	<div class="section" id="skills">
-
-		<div class="container fade-in">
-
-			<h2 data-aos="fade-down">Skills</h2>
-			<hr data-aos="fade-down" />
-			<br><br>
-
-
-			<div class="feature_inner row">
-
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<ul class="skill-bars">
-						<li data-aos="fade-right">
-							<div class="progress percent75"><div class="frontend"><span>75%</span></div></div>
-							<strong>HTML & CSS</strong>
-						</li>
-						<li data-aos="fade-right">
-							<div class="progress percent35"><div class="frontend"><span>35%</span></div></div>
-							<strong>Angular JS</strong>
-						</li>
-						<li data-aos="fade-left">
-							<div class="progress percent65"><div class="frontend"><span>65%</span></div></div>
-							<strong>Flutter</strong>
-						</li>
-						<li data-aos="fade-left">
-							<div class="progress percent50"><div class="frontend"><span>50%</span></div></div>
-							<strong>Android</strong>
-						</li>
-					</ul> <!-- /skill-bars -->
-
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<ul class="skill-bars">
-						<li data-aos="fade-left">
-							<div class="progress percent85"><div class="backend"><span>85%</span></div></div>
-							<strong>Java</strong>
-						</li>
-						<li data-aos="fade-right">
-							<div class="progress percent70"><div class="backend"><span>70%</span></div></div>
-							<strong>Python</strong>
-						</li>
-						<li data-aos="fade-left">
-							<div class="progress percent65"><div class="backend"><span>65%</span></div></div>
-							<strong>SQL</strong>
-						</li>
-						<li data-aos="fade-right">
-							<div class="progress percent50"><div class="backend"><span>50%</span></div></div>
-							<strong>NoSQL</strong>
-						</li>
-
-					</ul>
-				</div>
-			</div>
-
-			
-			<div class="feature_inner row" style="margin-top: 6%;">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<ul class="skill-bars">
-						<li data-aos="fade-left">
-							<div class="progress percent95"><div class="languages"><span>95%</span></div></div>
-							<strong>Portuguese</strong>
-						</li>
-						<li data-aos="fade-right">
-							<div class="progress percent50"><div class="languages"><span>50%</span></div></div>
-							<strong>English</strong>
-						</li>
-						<li data-aos="fade-left">
-							<div class="progress percent30"><div class="languages"><span>30%</span></div></div>
-							<strong>Spanish</strong>
-						</li>
-						</ul>
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<ul class="skill-bars">
-						<li data-aos="fade-left">
-							<div class="progress percent60"><span>60%</span></div>
-							<strong>Photoshop</strong>
-						</li>
-						<li data-aos="fade-right">
-							<div class="progress percent30"><span>30%</span></div>
-							<strong>Final Cut Pro</strong>
-						</li>
-					</ul>
-				</div>
-
-
-			</div>
-
-			<!-- <div class="row soft">
-				<div class="col-lg-4 col-md-4" data-aos="fade-down">
-					<div class="feature_item">
-						<i class="flaticon-idea-1"></i>
-						<h3>Creativity</h3>
-						<p>I consider myself a very creative person with some out of the box ideas.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4" data-aos="fade-down">
-					<div class="feature_item">
-						<i class="flaticon-team"></i>
-						<h3>Team Work</h3>
-						<p>I can easily adapt to teamwork and take into consideration the opinions of my colleagues.
-							</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4" data-aos="fade-down">
-					<div class="feature_item">
-						<i class="flaticon-leader"></i>
-						<h3>Leadership</h3>
-						<p>I can easily distribute and delegate tasks to my colleagues.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4" data-aos="fade-down">
-					<div class="feature_item">
-						<i class="flaticon-archive"></i>
-						<h3>Organization</h3>
-						<p>I consider myself an organized person both at work and at home.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4" data-aos="fade-down">
-					<div class="feature_item">
-						<i class="flaticon-employee"></i>
-						<h3>Public Speaking</h3>
-						<p>I can speak with a good cohesion and clarity catching easily the attention of my
-								audience.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4" data-aos="fade-down">
-					<div class="feature_item">
-						<i class="flaticon-entrepreneur"></i>
-						<h3>Entrepreneurship</h3>
-						<p>I can look ahead and take advantage of every opportunity that comes up.</p>
-					</div>
-				</div>
-			</div> -->
-		</div>
-	</div>
-
-	<!-- Footer -->
-	<footer>
-
-		<div class="row">
-
-			<div class="twelve columns">
-
-				<ul class="social-links">
-					<li><a href="https://www.linkedin.com/in/carolina-albuquerque29/"><i class="fab fa-linkedin"></i></a>
-					</li>
-					<li><a href="https://github.com/cmalbuquerque"><i class="fab fa-github"></i></a></li>
-				</ul>
-
-				<ul class="copyright">
-					<li>&copy; Design by Carolina Albuquerque</li>
-					<li>Inspired by KARDS Template of <a href="http://www.Styleshout.com">styleshout</a></li>
-				</ul>
-
-			</div>
-
-			<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i
-						class="fa fa-chevron-up"></i></a></div>
-
-		</div>
-
-	</footer> <!-- Footer End-->
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<script>
-		$(document).ready(function () {
-			// Add smooth scrolling to all links
-			$("a").on('click', function (event) {
-
-				// Make sure this.hash has a value before overriding default behavior
-				if (this.hash !== "") {
-					// Prevent default anchor click behavior
-					event.preventDefault();
-
-					// Store hash
-					var hash = this.hash;
-
-					// Using jQuery's animate() method to add smooth page scroll
-					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-					$('html, body').animate({
-						scrollTop: $(hash).offset().top
-					}, 800, function () {
-
-						// Add hash (#) to URL when done scrolling (default click behavior)
-						window.location.hash = hash;
-					});
-				} // End if
-			});
-		});
-	</script>
 </body>
 
 </html>
