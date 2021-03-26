@@ -10,7 +10,7 @@ html {
 }
 
 
-/** Fonts **/
+/** ------ Fonts -------- **/
 
 h1 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
@@ -40,12 +40,60 @@ h4 {
 p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 
 
-/** Preloader **/
+/** ------- Buttons ------- **/
+
+.btn {
+    background: white;
+    color: #363738;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    outline: none;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 0;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:hover {
+    background: #A3320B;
+    color: #fff;
+}
+
+.btn.btn--with-icon {
+    padding-right: 20px;
+}
+
+.btn.btn--with-icon i {
+    font-size: 25px;
+    padding: 0px 30px 0px 15px;
+    margin-right: 10px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: bottom;
+    color: white;
+    background: #A3320B;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+}
+
+.btn.btn--only-icon {
+    width: 50px;
+}
+
+
+/** ------- Preloader ------- **/
 
 .spinner-wrapper {
     position: fixed;
@@ -114,7 +162,7 @@ p {
 }
 
 
-/** Navbar **/
+/** ----- Navbar ------- **/
 
 .sidenav {
     height: 100%;
@@ -192,14 +240,15 @@ p {
 }
 
 
-/** Sections **/
+/** ------- Sections ------- **/
 
 .section .section-title {
     text-align: center;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: #C88A5B;
 }
 
@@ -213,11 +262,15 @@ p {
 #about {
     margin-left: 15%;
     background-color: #fff;
-    height: 100vh;
+}
+
+#articles {
+    margin-left: 15%;
+    background-color: #f5f5f5;
 }
 
 
-/** Home Section **/
+/** ------- Home Section ---------- **/
 
 .gradient {
     height: 100vh;
@@ -244,7 +297,7 @@ p {
 }
 
 
-/** About Section **/
+/** -------- About Section --------- **/
 
 .content {
     margin-top: 5%;
@@ -281,4 +334,85 @@ p {
     margin-right: 10px;
     font-size: 30px;
     color: #A3320B;
+}
+
+
+/** ------- Articles Section ------- **/
+
+.date__box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #C88A5B;
+    border: 4px solid;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.date__box .date__day {
+    font-size: 22px;
+}
+
+.blog-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-attachment: #fff;
+    position: relative;
+}
+
+.blog-card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.blog-card .date__box {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 300ms ease-in-out;
+}
+
+.blog-card .blog-card__head {
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-card .blog-card__info {
+    background: white;
+    padding: 20px 15px;
+}
+
+.blog-card .blog-card__info h4 {
+    transition: 300ms ease-in-out;
+    text-transform: uppercase;
+    color: #A3320B;
+}
+
+.blog-card:hover .date__box {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.blog-card:hover img {
+    opacity: 0.5;
+}
+
+.blog-card:hover .blog-card__info h4 {
+    color: #C88A5B;
+}
+
+#articles a.icon-link {
+    margin-right: 20px;
+    color: #818181;
+    transition: 200ms ease-in-out;
+}
+
+#articles a.icon-link i {
+    color: #818181;
+}
+
+#articles a.icon-link:hover {
+    text-decoration: none;
 }
