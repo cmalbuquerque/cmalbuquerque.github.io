@@ -289,7 +289,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 101%;
-        margin-left: -1%;
+        margin-left: -1px;
     }
     
     .rotate {
