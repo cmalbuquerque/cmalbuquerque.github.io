@@ -277,6 +277,10 @@ p {
     background-color: #A3320B;
 }
 
+#volunteer {
+    background-color: #f5f5f5;
+}
+
 #skills {
     background-color: #fff;
 }
@@ -354,6 +358,70 @@ p {
 
 
 /** ------- Education Section ------- **/
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.resume-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.resume-wrap .icon {
+    width: 60px;
+    height: 60px;
+    background: #A3320B;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.resume-wrap i {
+    color: #fff;
+    font-size: 35px;
+}
+
+.resume-wrap .text {
+    width: calc(100% - 50px);
+    margin-left: 30px;
+}
+
+.resume-wrap span {
+    margin-bottom: 0;
+}
+
+.resume-wrap .date {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    color: #A3320B;
+}
+
+.resume-wrap h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.resume-wrap .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: #C88A5B;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
 
 
 /** ------- Experience Section ------- **/
@@ -446,8 +514,83 @@ p {
 
 #experience .timeline-content p {
     margin-bottom: 10%;
-    text-transform: capitalize;
+    text-transform: none;
     color: white;
+}
+
+@media only screen and (max-width:1024px) {
+    #experience .timeline-header {
+        padding-right: 50px;
+    }
+    #experience .timeline-header h3 {
+        font-size: 1.8rem;
+    }
+    #experience .timeline-header p {
+        font-size: 1.4rem;
+    }
+    #experience .timeline-content {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #experience .timeline-wrap::before {
+        left: 2.4rem;
+    }
+    #experience .timeline-ico {
+        left: 2.4rem;
+    }
+    #experience .timeline-header {
+        float: none;
+        width: auto;
+        padding-right: 15px;
+        text-align: left;
+    }
+    #experience .timeline-header h3 {
+        font-size: 2rem;
+    }
+    #experience .timeline-header p {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    #experience .timeline-content {
+        margin: 0;
+    }
+    #experience .timeline-content h4 {
+        padding-bottom: 0;
+        padding-top: 2.1rem;
+        margin-bottom: .6rem;
+        font-size: 1.7rem;
+    }
+    #experience .timeline-content h4::after {
+        bottom: auto;
+        top: 0;
+    }
+    #experience .timeline-header,
+    #experience .timeline-content {
+        padding-left: 7rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #resume .resume-header h2 {
+        font-size: 2.2rem;
+    }
+    #resume .timeline-wrap::before {
+        left: 1.8rem;
+    }
+    #resume .timeline-ico {
+        height: 3.6rem;
+        width: 3.6rem;
+        line-height: 3.6rem;
+        left: 1.8rem;
+        margin-left: -1.8rem;
+        font-size: 1.5rem;
+    }
+    #resume .timeline-header,
+    #resume .timeline-content {
+        padding-left: 5.5rem;
+    }
 }
 
 
