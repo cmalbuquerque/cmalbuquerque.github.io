@@ -432,6 +432,80 @@
         color: #C88A5B;
         font-family: 'Fira Sans Extra Condensed', sans-serif;
     }
+    
+    #education .box {
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+        margin: 0 10px 40px 10px;
+        background: #fff;
+        box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #education .box:hover {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    
+    #education .box .icon {
+        position: absolute;
+        margin-left: -10px;
+        top: calc(50% - 32px);
+    }
+    
+    #education .box .icon i {
+        font-size: 64px;
+        line-height: 1;
+        transition: 0.5s;
+    }
+    
+    #education .box .title {
+        margin-left: 60px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    
+    #education .box .subtitle {
+        margin-left: 60px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    #education .box .title {
+        color: #111;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    #education .box:hover .title {
+        color: #C88A5B;
+    }
+    
+    #education .box .date {
+        font-size: 12px;
+        margin-left: 60px;
+        line-height: 24px;
+        margin-top: 0;
+        font-weight: bold;
+    }
+    
+    #education .box .description {
+        font-size: 14px;
+        margin-left: 60px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    
+    #education .certs {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
     /** ------- Experience Section ------- **/
     
     #experience h2 {
@@ -762,6 +836,12 @@
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         background-attachment: #fff;
         position: relative;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .blog-card:hover {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
     }
     
     .blog-card img {
