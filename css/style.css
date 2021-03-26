@@ -269,6 +269,14 @@ p {
     background-color: #fff;
 }
 
+#education {
+    background-color: #f5f5f5;
+}
+
+#experience {
+    background-color: #A3320B;
+}
+
 #skills {
     background-color: #fff;
 }
@@ -345,6 +353,104 @@ p {
 }
 
 
+/** ------- Education Section ------- **/
+
+
+/** ------- Experience Section ------- **/
+
+#experience h2 {
+    color: white;
+}
+
+#experience .timeline-wrap {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+#experience .timeline-wrap::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 35%;
+    top: 0;
+}
+
+#experience .timeline-block {
+    position: relative;
+    padding-top: 1.5rem;
+    margin-bottom: 10%;
+}
+
+#experience .timeline-ico {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #C88A5B;
+    position: absolute;
+    left: 35%;
+    top: 25px;
+    margin-left: -2.4rem;
+}
+
+#experience .timeline-ico i {
+    position: relative;
+    font-size: 25px;
+    left: 2px;
+    top: 3px;
+}
+
+#experience .timeline-header {
+    float: left;
+    width: 35%;
+    padding-right: 90px;
+    text-align: right;
+}
+
+#experience .timeline-header h3 {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#experience .timeline-content {
+    margin-left: 35%;
+    padding-left: 60px;
+    text-align: start;
+}
+
+#experience .timeline-content h4 {
+    position: relative;
+    padding-bottom: 1.8rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+#experience .timeline-content h4::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#experience .timeline-content p {
+    margin-bottom: 10%;
+    text-transform: capitalize;
+    color: white;
+}
+
+
 /** ------- Skills Section ------- **/
 
 .mx-auto {
@@ -357,7 +463,7 @@ p {
 }
 
 .border-primary {
-    border-color: #C88A5B !important;
+    border-color: #A3320B !important;
 }
 
 .progress-wrap {
@@ -394,30 +500,6 @@ p {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     border-radius: 2px;
-}
-
-.progress-bar:after {
-    position: absolute;
-    top: -2px;
-    right: 0;
-    width: 34px;
-    height: 34px;
-    content: '';
-    background: #A3320B;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    border-radius: 2px;
-    opacity: 0;
-}
-
-.progress-bar span {
-    position: absolute;
-    top: -38px;
-    right: 0;
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
 }
 
 .progress-circle .progress {
