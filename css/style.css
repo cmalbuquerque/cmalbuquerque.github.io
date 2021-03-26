@@ -268,7 +268,7 @@
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
-        min-height: 100%;
+        max-width: 100%;
     }
     
     #divider-top {
@@ -276,12 +276,18 @@
         background-position: top center;
         background-color: #fff;
         background-repeat: no-repeat;
+        max-width: 100%;
+        min-height: 300px;
+        background-size: cover;
     }
     
     #divider-footer {
         background-image: url("../img/wave-header.svg");
         background-color: #f5f5f5;
+        background-position: bottom center;
         background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
     }
     
     .rotate {
@@ -433,7 +439,7 @@
         font-family: 'Fira Sans Extra Condensed', sans-serif;
     }
     
-    #education .box {
+    .box {
         padding: 30px;
         position: relative;
         overflow: hidden;
@@ -443,31 +449,31 @@
         transition: all 0.3s ease-in-out;
     }
     
-    #education .box:hover {
+    .box:hover {
         -webkit-transform: translateY(-5px);
         transform: translateY(-5px);
     }
     
-    #education .box .icon {
+    .box .icon {
         position: absolute;
         margin-left: -10px;
         top: calc(50% - 32px);
     }
     
-    #education .box .icon i {
+    .box .icon i {
         font-size: 64px;
         line-height: 1;
         transition: 0.5s;
     }
     
-    #education .box .title {
+    .box .title {
         margin-left: 60px;
         font-weight: 700;
         margin-bottom: 15px;
         font-size: 20px;
     }
     
-    #education .box .subtitle {
+    .box .subtitle {
         margin-left: 60px;
         font-weight: 700;
         margin-bottom: 15px;
@@ -476,17 +482,17 @@
         margin-top: 0;
     }
     
-    #education .box .title {
+    .box .title {
         color: #111;
         margin-bottom: 0;
         margin-top: 0;
     }
     
-    #education .box:hover .title {
+    .box:hover .title {
         color: #C88A5B;
     }
     
-    #education .box .date {
+    .box .date {
         font-size: 12px;
         margin-left: 60px;
         line-height: 24px;
@@ -494,14 +500,14 @@
         font-weight: bold;
     }
     
-    #education .box .description {
+    .box .description {
         font-size: 14px;
         margin-left: 60px;
         line-height: 24px;
         margin-bottom: 0;
     }
     
-    #education .certs {
+    .certs {
         -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
         justify-content: center !important;
