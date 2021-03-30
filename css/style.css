@@ -47,7 +47,8 @@ p {
 
 /** ------- Buttons ------- **/
 
-.btn {
+#about .btn,
+#articles .btn {
     background: white;
     color: #363738;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
@@ -61,22 +62,27 @@ p {
     padding: 0;
     border: none;
     text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
 }
 
-.btn:focus {
+#about .btn:focus,
+#articles .btn:focus {
     box-shadow: none;
 }
 
-.btn:hover {
+#about .btn:hover,
+#articles .btn:hover {
     background: #A3320B;
     color: #fff;
 }
 
-.btn.btn--with-icon {
+#about .btn.btn--with-icon,
+#articles .btn.btn--with-icon {
     padding-right: 20px;
 }
 
-.btn.btn--with-icon i {
+#about .btn.btn--with-icon i,
+#articles .btn.btn--with-icon i {
     font-size: 25px;
     padding: 0px 30px 0px 15px;
     margin-right: 10px;
@@ -88,7 +94,8 @@ p {
     clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
 }
 
-.btn.btn--only-icon {
+#about .btn.btn--only-icon,
+#articles .btn.btn--only-icon {
     width: 50px;
 }
 
@@ -166,7 +173,7 @@ p {
 
 .sidenav {
     height: 100%;
-    width: 15%;
+    width: 17%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -198,8 +205,9 @@ p {
     color: #FCF7F8;
     text-transform: uppercase;
     font-family: 'Fira Sans Extra Condensed', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .sidenav .links i {
@@ -209,6 +217,7 @@ p {
 .sidenav .links a:hover {
     color: #A3320B;
     text-decoration: none;
+    letter-spacing: 5px;
 }
 
 .sidenav .social {
@@ -257,7 +266,7 @@ p {
 
 .section {
     min-height: 100vh;
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
 #home {
@@ -563,7 +572,7 @@ p {
 #experience .timeline-wrap {
     position: relative;
     margin-top: 1.5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5%;
 }
 
 #experience .timeline-wrap::before {
@@ -579,8 +588,8 @@ p {
 
 #experience .timeline-block {
     position: relative;
-    padding-top: 1.5rem;
-    margin-bottom: 3%;
+    padding-top: 1%;
+    margin-bottom: 1%;
 }
 
 #experience .timeline-ico {
@@ -620,6 +629,10 @@ p {
 }
 
 #experience .timeline-header h5 {
+    color: #111;
+}
+
+#experience .now .timeline-header h5 {
     color: #A3320B;
 }
 
@@ -648,9 +661,13 @@ p {
 }
 
 #experience .timeline-content p {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-transform: none;
     color: white;
+}
+
+#experience .final .timeline-content p {
+    margin-bottom: 15%;
 }
 
 @media only screen and (max-width:1024px) {
@@ -964,4 +981,44 @@ p {
 }
 
 
+/** ------- Projects Section ------- **/
+
+#projects .screenshot {
+    overflow: hidden;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#projects .screenshot img {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 4px;
+    width: 400px;
+}
+
+#projects .item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-attachment: #fff;
+    padding: 2%;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+}
+
+#projects .item:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+#projects .btn {
+    border-radius: 30px;
+    border: none;
+    font-size: 11px;
+}
+
+#projects .languages {
+    margin-top: 4%;
 }
