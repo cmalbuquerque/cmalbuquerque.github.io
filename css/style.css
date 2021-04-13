@@ -198,7 +198,7 @@
             text-transform: uppercase;
             font-family: 'Fira Sans Extra Condensed', sans-serif;
             letter-spacing: 3px;
-            font-size: 20px;
+            font-size: 17px;
             transition: all 0.3s ease-in-out;
         }
         
@@ -209,7 +209,7 @@
         .sidenav .links a:hover {
             color: #A3320B;
             text-decoration: none;
-            letter-spacing: 5px;
+            letter-spacing: 4px;
         }
         
         .sidenav .social {
@@ -385,7 +385,7 @@
             background: #C88A5B;
             border-color: #C88A5B;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-            margin: 0 15px;
+            margin: 10px 15px;
             padding: 10px 5px;
             text-align: center;
             color: #fff;
@@ -767,7 +767,7 @@
         }
         
         .progress-bar {
-            background: #A3320B;
+            background: #C88A5B;
             -webkit-box-shadow: none;
             box-shadow: none;
             font-size: 12px;
@@ -965,7 +965,7 @@
         
         #projects .items {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         
         #projects .item {
