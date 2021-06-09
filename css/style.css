@@ -657,11 +657,8 @@
         }
         
         @media only screen and (max-width:1024px) {
-            .sidenav i {
-                font-size: 25px;
-            }
-            .sidenav .links {
-                text-align: center;
+            .sidenav .links span {
+                font-size: 13px;
             }
             #experience .timeline-header {
                 padding-right: 50px;
