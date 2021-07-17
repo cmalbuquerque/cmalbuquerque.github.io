@@ -258,6 +258,10 @@
             min-height: 100vh;
             margin-left: 17%;
         }
+
+        .section .container{
+            width: 95%;
+        }
         
         #home {
             background: url("../img/back_bw.JPG");
@@ -269,10 +273,12 @@
         
         #about {
             background-color: #fff;
+            max-width: 83%;
         }
         
         #education {
             background-color: #f5f5f5;
+            max-width: 83%;
         }
         
         #experience {
@@ -283,6 +289,7 @@
             background-size: cover;
             margin-top: -5px;
             max-width: 100%;
+            min-height: 100vh;
         }
         
         #divider-top {
@@ -419,7 +426,6 @@
         }
         
         .resume-wrap {
-            width: 100%;
             margin-bottom: 30px;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             padding-bottom: 10px;
@@ -480,7 +486,7 @@
             padding: 30px;
             position: relative;
             overflow: hidden;
-            margin: 0 10px 40px 10px;
+            margin: 10px;
             background: #fff;
             box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
             transition: all 0.3s ease-in-out;
@@ -559,6 +565,7 @@
             position: relative;
             margin-top: 1.5rem;
             margin-bottom: 5%;
+            
         }
         
         #experience .timeline-wrap::before {
@@ -654,6 +661,7 @@
         
         #experience .final .timeline-content p {
             margin-bottom: 15%;
+            padding-bottom: 20%;
         }
         
         @media only screen and (max-width:1024px) {
@@ -675,6 +683,9 @@
         }
         
         @media only screen and (max-width:900px) {
+            #projects .items {
+                flex-direction: column;
+              }
             .sidenav i {
                 font-size: 25px;
             }
@@ -1019,7 +1030,7 @@
         
         #projects .items {
             display: flex;
-            justify-content: space-around;
+            flex-direction: row;
         }
         
         #projects .item {
@@ -1028,6 +1039,7 @@
             transition: all 0.3s ease-in-out;
             margin: 15px;
             padding: 2%;
+            flex: 50%;
         }
         
         #projects .item:hover {
